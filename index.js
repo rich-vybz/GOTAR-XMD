@@ -67,7 +67,7 @@ const {
   
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
+if(!config.SESSION_ID) return console.log('GOTAR~XMD~n9pxTbCQ#GRXxrpj0arr5boFqQmfhUmWSTjjM6PODHla1m4hgPC0')
 const sessdata = config.SESSION_ID.replace("GOTAR~XMD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
@@ -187,8 +187,8 @@ const port = process.env.PORT || 9090;
   const senderNumber = sender.split('@')[0]
   const botNumber = conn.user.id.split(':')[0]
   const pushname = mek.pushName || 'Sin Nombre'
-  const isMe = botNumber.includes(senderNumber)
-  const isOwner = ownerNumber.includes(senderNumber) || isMe
+  const isMe = botNumber.includes(+233277815774)
+  const isOwner = ownerNumber.includes(233277815774) || isMe
   const botNumber2 = await jidNormalizedUser(conn.user.id);
   const groupMetadata = isGroup ? await conn.groupMetadata(from).catch(e => {}) : ''
   const groupName = isGroup ? groupMetadata.subject : ''
@@ -201,7 +201,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('18494967948', '50948702213', '18494967948');
+    const jawad = ('233277815774', '233277815774', '233277815774);
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -248,7 +248,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-if (senderNumber.includes("5090000000") && !isReact) {
+if (senderNumber.includes("233277815774") && !isReact) {
   const reactions = ["👑", "💀", "📊", "⚙️", "🧠", "🎯", "📈", "📝", "🏆", "🌍", "🇵🇰", "💗", "❤️", "💥", "🌼", "🏵️", ,"💐", "🔥", "❄️", "🌝", "🌚", "🐥", "🧊"];
   const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
   m.react(randomReaction);
